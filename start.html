@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Facebook E-Commerce and Marketing tool documentation</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+          rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"
+            integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH"
+            crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body class="body-green">
+<div class="page-wrapper">
+    <!-- ******Header****** -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="branding">
+                <h1 class="logo">
+                    <a href="index.html">
+                        <span aria-hidden="true" class="icon_documents_alt icon"></span>
+                        <span class="text-highlight">FeBe</span><span class="text-bold">Docs</span>
+                    </a>
+                </h1>
+
+            </div><!--//branding-->
+
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active">Documentation</li>
+            </ol>
+
+
+        </div><!--//container-->
+    </header><!--//header-->
+    <div class="doc-wrapper">
+        <div class="container">
+            <div id="doc-header" class="doc-header text-center">
+                <h1 class="doc-title"><i class="icon_documents_alt icon"></i> Documentation</h1>
+                <div class="meta"><i class="far fa-clock"></i> Last updated: Aug 24, 2019</div>
+            </div><!--//doc-header-->
+            <div class="doc-body row">
+                <div class="doc-content col-md-9 col-12 order-1">
+                    <div class="content-inner">
+                        <section id="overview-section" class="doc-section">
+                            <h2 class="section-title">Overview</h2>
+                            <div class="section-block">
+                                <p>
+                                    FeBe is Facebook Sells and Marketing Solution with Facebook messenger bot, mass
+                                    messaging / campaign ,Customer chat in website feature and many more.
+                                </p>
+
+                                <p>
+                                <div class="callout-block callout-danger">
+
+                                    <div class="content">
+                                        <b>
+                                            Be careful while editing the code.
+                                            No support is provided for faulty customization.
+                                        </b>
+                                    </div>
+                                </div>
+                                </p>
+
+                            </div>
+                        </section><!--//doc-section-->
+                        <section id="installation-section" class="doc-section">
+                            <h2 class="section-title">Installation</h2>
+                            <h1>Server Requirements</h1>
+                            <p>Before you install make sure your server meets the following
+                                Requirements</p>
+                            <div>
+                                <ul>
+                                    <li>PHP 7.1.13+</li>
+                                    <li>MySQL 5.6+ or MariaDB 10.0+</li>
+                                    <li>Intl PHP Extension</li>
+                                    <li>OpenSSL PHP Extension</li>
+                                    <li>PDO PHP Extension</li>
+                                    <li>Mbstring PHP Extension</li>
+                                    <li>Tokenizer PHP Extension</li>
+                                    <li>XML PHP Extension</li>
+                                    <li>Ctype PHP Extension</li>
+                                    <li>JSON PHP Extension</li>
+
+                                </ul>
+                            </div>
+
+                            <p>
+                                You also need <kbd>https</kbd> ( SSL ) for messenger bot
+                            </p>
+                            <div id="step1" class="section-block">
+                                <h3 class="block-title">Step One</h3>
+                                <p>
+                                    Upload the zip file to your web server and extract it.
+                                </p>
+
+                            </div><!--//section-block-->
+                            <div id="step2" class="section-block">
+                                <h3 class="block-title">Step Two</h3>
+                                <p>
+                                    Create a database and keep your database credentials. It will need when you will
+                                    install the script.
+                                </p>
+
+                            </div><!--//section-block-->
+                            <div id="step3" class="section-block">
+                                <h3 class="block-title">Step Three</h3>
+                                <p>
+                                    Now go to the URL where you uploaded it. You will see notification on the top of
+                                    login page. Click install button it will navigate you to installation page
+
+                                </p>
+                                <p>
+                                    <img src="assets/images/screenshots/ifNotInstalled.png">
+                                </p>
+
+                                <p>
+                                    When you will be navigated to install page then you will see this <br> <br>
+
+                                    <img src="assets/images/installer_step_one.png" class=" ">
+
+                                </p>
+                                <p>
+                                    Click <kbd>Check Requirements</kbd> button . If everything ok then you will see like
+                                    the image below<br> <br>
+                                    <img src="assets/images/installer_step_two.png" class=" ">
+                                </p>
+                                <p>
+                                    Click <kbd>Check Permissions</kbd> button . If the required permissions are ok then
+                                    you will see like the image below. <br><br>
+                                    <img src="assets/images/installer_step_three.png" class=" ">
+                                </p>
+                                <p>
+                                    Now click <kbd>Configure Environment</kbd> button . You will see like the image
+                                    below.
+                                    <img src="assets/images/installer_step_four.png" class=" ">
+                                    <br> <br>
+
+                                    Click the <kbd>Form Wizard Setup</kbd> button. <br>
+
+
+                                </p>
+
+                                <p>
+                                    <img src="assets/images/installer_step_five.png" class=" ">
+                                    <br><br>
+
+                                    Type you App name and App URl and select the other settings then click the <kbd>Setup
+                                    Database</kbd> button <br>
+                                    You will see database setup wizard like this image . <br><br>
+
+                                    <img src="assets/images/installer_step_six.png" class=" ">
+
+                                    <br><br>
+                                    Enter your database credentials and click the <kbd>Setup Application</kbd> button .
+                                    <br><br>
+                                    <img src="assets/images/installer_setup_seven.png" class=" ">
+                                    <br><br>
+
+                                    Setup your email client . Click on <kbd>Mail</kbd> then the mail settings will be
+                                    appear. Put your email client credentials. Then click the <kbd>Install</kbd> button
+
+                                    If your database credentials are correct and everything ok then you will see the
+                                    successful installation window . <br><br>
+
+                                    <img src="assets/images/installer_step_eight.png" class=" ">
+
+                                    <br>
+
+                                <p>
+                                <div class="callout-block callout-success">
+                                    <div class="content">
+                                        <b>After installation go to login page . Default admin login credentials : </b>
+                                        <br>
+                                        <b><kbd>Email : admin@email.com</kbd><br>
+                                            <kbd>Password : 123456</kbd>
+                                        </b>
+                                    </div>
+                                </div>
+                                </p>
+
+
+                                </p>
+                            </div><!--//section-block-->
+                        </section><!--//doc-section-->
+                        <section id="configuration-section" class="doc-section">
+
+
+                            <div class="section-block" id="software-configuration-section">
+                                <div class="section-title">Software Settings</div>
+                                <p>
+                                    Software settings will be found under <kbd>ADMIN NAVIGATION</kbd> section
+                                </p>
+                                <p>
+                                    <img src="assets/images/screenshots/admin_settings.png">
+                                </p>
+                            </div>
+
+                            <div class="section-block" id="facebook-configuration-section">
+                                <div class="section-title">Facebook Settings</div>
+                                <p>Watch the video about how you can create facebook app and connect with the
+                                    software</p>
+                                <p>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kV4wDN7lltQ"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                </p>
+
+                            </div>
+
+                            <div class="section-block" id="full-configuration-section">
+                                <div class="section-title">Full Configuration Tutorial</div>
+                                <p>
+                                    Here we made full video about installation , configuration , and other setup . Watch
+                                    till the end. It will help you to understand full setup process
+                                </p>
+
+                                <p>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/79d6IdMcRMs"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                </p>
+                            </div>
+                        </section>
+
+
+                        <section id="admin-section" class="doc-section">
+                            <div class="section-block" id="add-user-section">
+                                <div class="section-title">Add User</div>
+                                <p>You can create new user form admin panel</p>
+                                <p>User can also create a account form registration section</p>
+                                <img src="assets/images/screenshots/Add%20user.png">
+                            </div>
+
+                            <div class="section-block" id="user-list-section">
+                                <div class="section-title">User List / User Management</div>
+                                <p>From the User List section you can manage your users</p>
+                                <p>You can delete and edit the users</p>
+                                <p>You can export your users list as excel / csv file and also you can print your user
+                                    list</p>
+                                <img src="assets/images/screenshots/User%20Lists.png">
+                            </div>
+                        </section>
+
+
+                    </div><!--//content-inner-->
+                </div><!--//doc-content-->
+                <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                    <div id="doc-nav" class="doc-nav">
+
+                        <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                            <a class="nav-link scrollto" href="#overview-section">Overview</a>
+                            <a class="nav-link scrollto" href="#installation-section">Installation</a>
+                            <nav class="doc-sub-menu nav flex-column">
+                                <a class="nav-link scrollto" href="#step1">Step One</a>
+                                <a class="nav-link scrollto" href="#step2">Step Two</a>
+                                <a class="nav-link scrollto" href="#step3">Step Three</a>
+                            </nav><!--//nav-->
+
+                            <a class="nav-link scrollto" href="#configuration-section">Configuration</a>
+                            <nav class="doc-sub-menu nav flex-column">
+                                <a class="nav-link scrollto" href="#software-configuration-section">Software</a>
+                                <a class="nav-link scrollto" href="#facebook-configuration-section">Facebook</a>
+                                <a class="nav-link scrollto" href="#full-configuration-section">Full Configuration</a>
+
+
+                            </nav><!--//nav-->
+
+
+                            <a class="nav-link scrollto" href="#admin-section">Admin</a>
+                            <nav class="doc-sub-menu nav flex-column">
+                                <a class="nav-link scrollto" href="#add-user-section">Add User</a>
+                                <a class="nav-link scrollto" href="#user-list-section">User Management</a>
+
+                            </nav><!--//nav-->
+
+
+                            <a class="nav-link scrollto" href="#package-section">Package</a>
+                            <nav class="doc-sub-menu nav flex-column">
+                                <a class="nav-link scrollto" href="#create-package-section">Create Package</a>
+                                <a class="nav-link scrollto" href="#package-list-section">Package List</a>
+
+                            </nav><!--//nav-->
+
+                            <a class="nav-link scrollto" href="#dashoboard-section">Home / Dashboard</a>
+                            <a class="nav-link scrollto" href="#subscription-section">Subscription</a>
+
+                            <nav class="doc-sub-menu nav flex-column">
+                                <a class="nav-link scrollto" href="#buy-subscription-section">Buy Subscription</a>
+                                <a class="nav-link scrollto" href="#my-subscription-section">User Subscription</a>
+
+                                <a class="nav-link scrollto" href="#statements-section">Statements</a>
+
+                            </nav><!--//nav-->
+
+                            <a class="nav-link scrollto" href="#facebook-pages-section">Facebook Pages</a>
+
+                            <nav class="doc-sub-menu nav flex-column">
+
+
+                                <a class="nav-link scrollto" href="#orders-section">Orders</a>
+                                <a class="nav-link scrollto" href="#orders-history-section">Orders History</a>
+
+                            </nav><!--//nav-->
+
+                            <a class="nav-link scrollto" href="#orders-section">Orders</a>
+
+                            <nav class="doc-sub-menu nav flex-column">
+
+
+                                <a class="nav-link scrollto" href="#orders-section">Orders</a>
+                                <a class="nav-link scrollto" href="#orders-history-section">Orders History</a>
+
+                            </nav><!--//nav-->
+
+                            <a class="nav-link scrollto" href="#sells-section">Sells</a>
+
+                            <nav class="doc-sub-menu nav flex-column">
+
+
+                                <a class="nav-link scrollto" href="#sells-history-section">Sells History</a>
+                                <a class="nav-link scrollto" href="#paypal-history-section">PayPal History</a>
+
+                            </nav><!--//nav-->
+
+
+                            <a class="nav-link scrollto" href="#category-section">Category</a>
+
+                            <nav class="doc-sub-menu nav flex-column">
+
+
+                                <a class="nav-link scrollto" href="#add-category-section">Add Category</a>
+                                <a class="nav-link scrollto" href="#show-category-section">Show Category</a>
+
+                            </nav><!--//nav-->
+
+
+                            <a class="nav-link scrollto" href="#products-section">Products</a>
+
+                            <nav class="doc-sub-menu nav flex-column">
+
+
+                                <a class="nav-link scrollto" href="#add-products-section">Add Products</a>
+                                <a class="nav-link scrollto" href="#show-products-section">Show Products</a>
+
+                            </nav><!--//nav-->
+
+                            <a class="nav-link scrollto" href="#customer-section">Customers</a>
+                            <a class="nav-link scrollto" href="#mass-messaging-section">Mass Messaging</a>
+
+                            <nav class="doc-sub-menu nav flex-column">
+
+
+                                <a class="nav-link scrollto" href="#message-to-all-customer-section">Message to all
+                                    customer</a>
+                                <a class="nav-link scrollto" href="#campaign-section">Campaign</a>
+
+                            </nav><!--//nav-->
+
+                            <a class="nav-link scrollto" href="#messenger-bot-section">Messenger Bot</a>
+                            <a class="nav-link scrollto" href="#webiste-integration-section">Website integration</a>
+                            <a class="nav-link scrollto" href="#webiste-integration-section">Notifications</a>
+
+                            <a class="nav-link scrollto" href="#user-settings-section">Settings</a>
+
+                            <nav class="doc-sub-menu nav flex-column">
+
+
+                                <a class="nav-link scrollto" href="#facebook-pages-settings-section">Facebook Pages</a>
+
+
+                                <a class="nav-link scrollto" href="#software-settings-section">Software</a>
+                                <a class="nav-link scrollto" href="#profile-settings-section">Profile</a>
+
+
+                            </nav><!--//nav-->
+
+                        </nav><!--//doc-menu-->
+
+                    </div>
+                </div><!--//doc-sidebar-->
+            </div><!--//doc-body-->
+        </div><!--//container-->
+    </div><!--//doc-wrapper-->
+
+
+</div><!--//page-wrapper-->
+
+<footer id="footer" class="footer text-center">
+    <div class="container">
+
+
+    </div><!--//container-->
+</footer><!--//footer-->
+
+
+<!-- Main Javascript -->
+<script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
+<script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+<script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html> 
+
